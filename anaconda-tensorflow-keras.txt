@@ -1,4 +1,4 @@
-Install TensorFlow (GPU) 1.9 (currently), Keras, and some other tools to a new anaconda environment in Windows 10
+Install TensorFlow (GPU) 1.9 (currently), Keras, and some other tools to a new anaconda environment in Windows 10 beyind company firewall
 
 Open Anaconda Prompt
 
