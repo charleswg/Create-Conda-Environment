@@ -29,4 +29,5 @@ conda  install -c anaconda matplotlib
 conda install -c anaconda argparse
 conda install -c anaconda seaborn
 conda install -c conda-forge pandas-profiling
+conda install setuptools=39.1.0
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org optunity
