@@ -28,3 +28,5 @@ conda install opencv
 conda  install -c anaconda matplotlib
 conda install -c anaconda argparse
 conda install -c anaconda seaborn
+conda install -c conda-forge pandas-profiling
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org optunity
