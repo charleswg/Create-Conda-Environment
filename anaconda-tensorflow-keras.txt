@@ -19,7 +19,6 @@ conda install -c anaconda cudnn
 python -c "import tensorflow as tf;hello = tf.constant('Hello, TensorFlow!');sess = tf.Session();print(sess.run(hello))"
 
 conda install ipykernel
-python -m ipykernel install --user --name DLGPU --display-name "TensorFlow-GPU"
 
 conda install keras-gpu
 conda install scipy spyder
@@ -31,3 +30,5 @@ conda install -c anaconda seaborn
 conda install -c conda-forge pandas-profiling
 conda install setuptools=39.1.0
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org optunity
+
+python -m ipykernel install --user --name DLGPU --display-name "TensorFlow-GPU"
