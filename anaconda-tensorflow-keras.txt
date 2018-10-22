@@ -1,4 +1,4 @@
-Install TensorFlow (GPU) 1.9 (currently), Keras, and some other tools to a new anaconda environment in Windows 10 beyind company firewall
+## Install TensorFlow (GPU) 1.9 (currently), Keras, and some other tools to a new anaconda environment in Windows 10 beyind company firewall
 
 Open Anaconda Prompt
 
@@ -32,3 +32,7 @@ conda install setuptools=39.1.0
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org optunity
 
 python -m ipykernel install --user --name DLGPU --display-name "TensorFlow-GPU"
+
+
+## Install awscli
+pip install awscli --trusted-host pypi.org --trusted-host files.pythonhosted.org
