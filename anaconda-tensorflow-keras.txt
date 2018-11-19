@@ -32,7 +32,7 @@ conda install setuptools=39.1.0
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org optunity
 
 python -m ipykernel install --user --name DLGPU --display-name "TensorFlow-GPU"
-
+conda install -c conda-forge nibabel
 
 ## Install awscli
 pip install awscli --trusted-host pypi.org --trusted-host files.pythonhosted.org
