@@ -33,6 +33,8 @@ pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org optuni
 
 python -m ipykernel install --user --name DLGPU --display-name "TensorFlow-GPU"
 conda install -c conda-forge nibabel
+conda install -c anaconda joblib
+
 
 ## Install awscli
 pip install awscli --trusted-host pypi.org --trusted-host files.pythonhosted.org
