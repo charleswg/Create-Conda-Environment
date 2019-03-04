@@ -38,3 +38,7 @@ conda install -c anaconda joblib
 
 ## Install awscli
 pip install awscli --trusted-host pypi.org --trusted-host files.pythonhosted.org
+
+
+## AWS Instance TF/Keras upgrade
+https://mc.ai/how-to-install-tensorflow-gpu-with-cuda-toolkit-9-0-and-cudnn-7-2-1-on-aws-ec2-ubuntu-16-04/
