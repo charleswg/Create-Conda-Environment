@@ -45,7 +45,7 @@ pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgr
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade keras-applications
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade keras-preprocessing
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade numpy
-pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade tensorflow==1.13.1
+conda install -c anaconda tensorflow-gpu
 python -m ipykernel install --user --name DLGPU --display-name "TensorFlow1.13.1-GPU"
 
 ## AWS Instance TF/Keras upgrade
