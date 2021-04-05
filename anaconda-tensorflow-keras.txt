@@ -63,4 +63,5 @@ conda install matplotlib
 conda install pydot
 pip install -U scikit-learn
 pip install git+https://github.com/charleswg/GrouPy#egg=GrouPy -e git+https://github.com/charleswg/keras-gcnn.git#egg=keras_gcnn
+conda install scikit-image
 python -m ipykernel install --user --name TF1 --display-name "Tensorflow-1.15-GPU"
