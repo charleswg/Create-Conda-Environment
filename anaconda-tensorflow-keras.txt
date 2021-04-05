@@ -53,7 +53,7 @@ https://mc.ai/how-to-install-tensorflow-gpu-with-cuda-toolkit-9-0-and-cudnn-7-2-
 
 ## Fresh TF1.15 install in Linux (Lambda)
 conda create --name TF1
-activate TF1
+source activate TF1
 conda install ipykernel
 conda install tensorflow-gpu==1.15
 conda install keras
