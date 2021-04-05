@@ -51,7 +51,7 @@ python -m ipykernel install --user --name DLGPU --display-name "TensorFlow1.13.1
 ## AWS Instance TF/Keras upgrade
 https://mc.ai/how-to-install-tensorflow-gpu-with-cuda-toolkit-9-0-and-cudnn-7-2-1-on-aws-ec2-ubuntu-16-04/
 
-## Fresh TF1.15 install in Linux
+## Fresh TF1.15 install in Linux (Lambda)
 conda create --name TF1
 activate TF1
 conda install ipykernel
