@@ -72,3 +72,7 @@ pip install git+https://github.com/charleswg/GrouPy#egg=GrouPy -e git+https://gi
 conda install scikit-image
 conda install ipykernel
 python -m ipykernel install --user --name TF1 --display-name "Tensorflow-1.15-GPU"
+
+## TF2 GrouPy and Keras-gcnn
+pip install git+https://github.com/neel-dey/tf2-GrouPy#egg=GrouPy -e git+https://github.com/neel-dey/tf2-keras-gcnn.git#egg=keras_gcnn
+
