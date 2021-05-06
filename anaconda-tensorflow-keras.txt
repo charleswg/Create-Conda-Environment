@@ -73,6 +73,22 @@ conda install scikit-image
 conda install ipykernel
 python -m ipykernel install --user --name TF1 --display-name "Tensorflow-1.15-GPU"
 
-## TF2 GrouPy and Keras-gcnn
+## Fresh TF2 install with GrouPy and Keras-gcnn
+conda create --name TF2
+source activate TF2
+pip install nibabel
+pip install opencv-python
+conda install matplotlib
+pip install -U scikit-learn
 pip install git+https://github.com/neel-dey/tf2-GrouPy#egg=GrouPy -e git+https://github.com/neel-dey/tf2-keras-gcnn.git#egg=keras_gcnn
+conda install scikit-image
+conda install ipykernel
+conda install -c conda-forge jupyter_contrib_nbextensions
+conda install tensorflow-gpu==2.4.1
+conda install keras
+python -m ipykernel install --user --name TF2 --display-name "Tensorflow-2.41-GPU"
+
+
+
+
 
