@@ -88,6 +88,23 @@ conda install tensorflow-gpu==2.4.1
 conda install keras
 python -m ipykernel install --user --name TF2 --display-name "Tensorflow-2.41-GPU"
 
+## Fresh TF2.10 install with GrouPy and Keras-gcnn
+conda create --name TF2.10
+source activate TF2.10
+pip install nibabel
+pip install opencv-python
+conda install matplotlib
+pip install -U scikit-learn
+git clone -b tf2 https://github.com/charleswg/GrouPy.git
+cd GrouPy
+python -m pip install -e .  --trusted-host pypi.org --trusted-host files.pythonhosted.org
+python -m pip install -e git+https://github.com/neel-dey/tf2-keras-gcnn.git#egg=keras_gcnn --trusted-host pypi.org --trusted-host files.pythonhosted.org
+conda install scikit-image
+conda install ipykernel
+conda install -c conda-forge jupyter_contrib_nbextensions
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+python -m pip install "tensorflow<2.11"
+python -m ipykernel install --user --name TF2.10 --display-name "Tensorflow-2.10-GPU"
 
 
 
