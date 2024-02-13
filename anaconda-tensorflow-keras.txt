@@ -111,5 +111,10 @@ python -m pip install "tensorflow<2.11"
 python -m ipykernel install --user --name TF2.10 --display-name "Tensorflow-2.10-GPU"
 
 
+## nnUNetv2
+After removing the pycache, reinstall by:
+python -m pip install -e .  --trusted-host pypi.org --trusted-host files.pythonhosted.org
 
-
+Regenerate plan
+F:\CT_Segmentation\nnunetv2\nnunetv2\experiment_planning>python plan_and_preprocess_entrypoints.py -d 300 -np 8
+F:\CT_Segmentation\nnunetv2\nnunetv2\run>python run_training.py 300 3d_fullres 5 -num_gpus 1 -pretrained_weights f:\CT_Segmentation\nnUNet_pretrained\Dataset300_synrad\nnUNetTrainer__nnUNetPlans__3d_fullres\fold_5\checkpoint_best.pth
