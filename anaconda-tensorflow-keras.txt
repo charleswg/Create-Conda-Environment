@@ -50,6 +50,10 @@ pip install awscli --trusted-host pypi.org --trusted-host files.pythonhosted.org
 conda install -c conda-forge scikit-image
 #pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade absl-py
 #pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade keras-applications
+
+
+### nnUNetv2 (delete pycache and reinstall for updated code)
+python -m pip install -e . --trusted-host pypi.org --trusted-host files.pythonhosted.org
 #pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade keras-preprocessing
 #pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --upgrade numpy
 conda install -c anaconda tensorflow-gpu
