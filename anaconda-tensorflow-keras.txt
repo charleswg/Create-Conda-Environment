@@ -116,5 +116,6 @@ After removing the pycache, reinstall by:
 python -m pip install -e .  --trusted-host pypi.org --trusted-host files.pythonhosted.org
 
 Regenerate plan
-F:\CT_Segmentation\nnunetv2\nnunetv2\experiment_planning>python plan_and_preprocess_entrypoints.py -d 500 -np 12
+set CUDA_VISIBLE_DEVICES=0
+F:\CT_Segmentation\nnunetv2\nnunetv2\experiment_planning>python plan_and_preprocess_entrypoints.py -d 500 -np 12 -gpu_memory_target 20
 F:\CT_Segmentation\nnunetv2\nnunetv2\run>python run_training.py 500 3d_fullres 5 -num_gpus 1 -pretrained_weights f:\CT_Segmentation\nnUNet_pretrained\Dataset300_synrad\nnUNetTrainer__nnUNetPlans__3d_fullres\fold_5\checkpoint_best.pth
