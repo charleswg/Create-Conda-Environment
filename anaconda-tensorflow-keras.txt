@@ -110,6 +110,8 @@ conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
 python -m pip install "tensorflow<2.11"
 python -m ipykernel install --user --name TF2.10 --display-name "Tensorflow-2.10-GPU"
 
+pip install pip_system_certs  --trusted-host pypi.org --trusted-host files.pythonhosted.org
+
 
 ## nnUNetv2
 After removing the pycache, reinstall by:
