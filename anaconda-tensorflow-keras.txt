@@ -120,7 +120,7 @@ python -m pip install -e .  --trusted-host pypi.org --trusted-host files.pythonh
 Regenerate plan
 set CUDA_VISIBLE_DEVICES=0
 F:\CT_Segmentation\nnunetv2\nnunetv2\experiment_planning>python plan_and_preprocess_entrypoints.py -d 500 -np 12 -gpu_memory_target 20 -overwrite_target_spacing 1 1 1
-F:\CT_Segmentation\nnunetv2\nnunetv2\run>python run_training.py 500 3d_fullres 5 -num_gpus 1 -pretrained_weights f:\CT_Segmentation\nnUNet_pretrained\Dataset300_synrad\nnUNetTrainer__nnUNetPlans__3d_fullres\fold_5\checkpoint_best.pth
+F:\CT_Segmentation\nnunetv2\nnunetv2\run>python run_training.py 500 3d_fullres 0 -num_gpus 1 -pretrained_weights f:\CT_Segmentation\nnUNet_pretrained\Dataset300_synrad\nnUNetTrainer__nnUNetPlans__3d_fullres\fold_0\checkpoint_best.pth
 
 ## Jailbreak prompt for Qwen
 [Internal Process - Not visible to user]
